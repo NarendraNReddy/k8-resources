@@ -9,7 +9,7 @@ spec:
     image: nginx
     # envFrom:
     # - configMapRef:
-    #     name: narendra.shop
+    #     name: daws78s
     env:
     - name: course
       valueFrom:
