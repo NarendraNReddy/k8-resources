@@ -18,6 +18,6 @@ metadata:
     course: k8
     trainer: nnr
   spec:
+    containers:
     - name: nginx
-      image: nginx  
-
+      image: nginx
