@@ -4,9 +4,9 @@ metadata:
   name: labels
   labels:
     course: k8
-    trainer: nnr
-  spec:
-    containers:
-      - name: nginx
-        image: nginx
+    trainer: sivakumar
+spec:
+  containers:
+  - name: nginx
+    image: nginx
 
