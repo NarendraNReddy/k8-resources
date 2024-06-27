@@ -7,18 +7,18 @@ spec:
   containers:
   - name: nginx
     image: nginx
-    # envFrom:
-    # - configMapRef:
-    #     name: narendra.shop
-    env:
-    - name: course
-      valueFrom:
-        configMapKeyRef:
-          name: daws78s
-          key: course
-    - name: trainer
-      valueFrom:
-        configMapKeyRef:
-          name: daws78s
-          key: trainer
+    envFrom:
+    - configMapRef:
+        name: narendra.shop
+    # env:
+    # - name: course
+    #   valueFrom:
+    #     configMapKeyRef:
+    #       name: daws78s
+    #       key: course
+    # - name: trainer
+    #   valueFrom:
+    #     configMapKeyRef:
+    #       name: daws78s
+    #       key: trainer
 
