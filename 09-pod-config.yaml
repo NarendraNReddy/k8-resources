@@ -14,11 +14,11 @@ spec:
     # - name: course
     #   valueFrom:
     #     configMapKeyRef:
-    #       name: narendra.shop
+    #       name: daws78s
     #       key: course
     # - name: trainer
     #   valueFrom:
     #     configMapKeyRef:
-    #       name: narendra.shop
+    #       name: daws78s
     #       key: trainer
 
