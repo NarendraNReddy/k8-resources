@@ -17,7 +17,7 @@ metadata:
   labels:
     course: k8
     trainer: nnr
-  spec:
-    containers:
-    - name: nginx
-      image: nginx
+spec:
+  containers:
+  - name: nginx
+    image: nginx
