@@ -1,0 +1,14 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: annotations
+  labels:
+    course: k8
+    trainer: nnr
+  annotations:
+    kubernets.io/crated-by: 'NNR'
+    jenkins.build.url: 'https://jenkins.narendra.shop.online/expense/job/backend/54'  
+spec:
+  containers:
+  - name: nginx
+    image: nginx
