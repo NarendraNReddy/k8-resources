@@ -7,9 +7,9 @@ spec:
   containers:
   - name: nginx
     image: nginx
-    envFrom:
-    - configMapRef:
-        name: narendra.shop
+    # envFrom:
+    # - configMapRef:
+    #     name: narendra.shop
     env:
     - name: course
       valueFrom:
