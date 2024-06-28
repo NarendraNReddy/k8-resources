@@ -1,0 +1,8 @@
+kind: Pod
+appVersion: v1
+metadata:
+  name: nginx
+spec:
+  container:
+  - name: nginx
+    image: nginx #dockerio --> image and Kubernets--> run container
