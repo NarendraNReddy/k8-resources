@@ -8,6 +8,7 @@ spec:
     - name: nginx
       image: nginx    
       env:
-        course: "nnr1"
-        duration: "nnr2"
-        trainer: "nnr3"     
+      - name: course
+        value: "nnr1"
+      - name: duration
+        value: "nnr2"  
