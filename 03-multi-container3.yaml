@@ -6,10 +6,11 @@ spec:
   containers:
   - name: alma
     image: almalinux:9
-    command: ["sleep","2000"]  
-    
+    # command: ["sleep","2000"]  
+
   - name: nginx
     image: nginx 
+    command: ["sleep","2000"]     
   # - name: alma
   #   image: almalinux:9
   #   command: ["sleep","2000"]
