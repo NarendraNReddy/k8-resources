@@ -1,6 +1,6 @@
 kind: Pod
 apiVersion: v1
-metaata:
+metadata:
   name: pod-config
 spec:
   containers:
@@ -11,7 +11,7 @@ spec:
         valueFrom: 
           configMapKeyRef:
             name:  config-map
-            
+
       - name:  "duration"
         valueFrom: 
           configMapKeyRef:
