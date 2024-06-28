@@ -1,0 +1,13 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: env
+
+spec:
+  containers:
+    - name: nginx
+      image: nginx    
+      env:
+        course: "nnr1"
+        duration: "nnr2"
+        trainer: "nnr3"     
