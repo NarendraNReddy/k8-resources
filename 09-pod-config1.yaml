@@ -11,6 +11,11 @@ spec:
         valueFrom: 
           configMapKeyRef:
             name:  config-map
+            
+      - name:  "duration"
+        valueFrom: 
+          configMapKeyRef:
+            name:  config-map             
           
 
           
