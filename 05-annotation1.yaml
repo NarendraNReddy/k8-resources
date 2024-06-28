@@ -10,3 +10,8 @@ metadata:
     course: "https://github.com/NarendraNReddy/k8-resources.git"
     duration: "nnr@tcs.com"
     trainer:   "nnr4"
+spec:
+  container:
+    - name: nginx
+      image: nginx
+      
