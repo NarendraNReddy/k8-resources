@@ -11,6 +11,6 @@ metadata:
     duration: "nnr@tcs.com"
     trainer:   "nnr4"
 spec:
-  container:
+  containers:
     - name: nginx
       image: nginx
