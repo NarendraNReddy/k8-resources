@@ -1,0 +1,12 @@
+kind: Pod
+apiVersion: v2
+metadata:
+  name: annotations
+  labels:
+    course: "nnr1"
+    duration: "nnr2"
+    trainer: "nnr3"
+  annotations:
+    course: "https://github.com/NarendraNReddy/k8-resources.git"
+    duration: "nnr@tcs.com"
+    trainer:   "nnr4"
