@@ -3,7 +3,7 @@ apiVersion: v1
 metadata:
   name: annotations
   labels:
-    cours: k8
+    course: k8
     trainer: nnr
   annotations:
     kubernets.io/created-by: "NNR"
