@@ -17,7 +17,7 @@ metadata:
       metadata:
         labels:
           tier: frontend
-          app: nginx
+          apps: nginx
           project: some-project
       spec:
         containers:
