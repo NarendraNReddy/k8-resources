@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: narendra.shop
+data:
+  course: "Devops with AWS"
+  trainer: "NNR"
+  github: "https://github.com/NarendraNReddy/k8-resources.git"
+    
