@@ -5,7 +5,7 @@ metadata:
   name: nginx 
   labels: 
     app: nginx
-    purpose: Deployment
+    purpose: deployment
     tier: web 
   spec:
     replicas: 3
