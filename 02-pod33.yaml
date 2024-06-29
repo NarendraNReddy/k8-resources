@@ -1,6 +1,6 @@
 name: Pod
 apiVersion: v1 
-metaata: 
+metadata: 
   name: nginx 
 spec:
   containers:
