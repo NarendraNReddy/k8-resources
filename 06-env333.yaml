@@ -11,4 +11,4 @@ spec:
       - name: course
         value: "nnr1"
       - name: duration
-        value: 120  
+        value: "120"
