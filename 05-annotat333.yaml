@@ -1,0 +1,16 @@
+kind: Pod
+apiVersion: v1
+metadata:
+  name: annotations
+  labels:
+    cours: k8
+    trainer: nnr
+  annotations:
+    kubernets.io/created-by: "NNR"
+    jenkins.build.url: "https://jenkins.com"
+    github: https://github.com/NarendraNReddy/k8-resources.git  
+spec:
+  containers:
+  - name: nginx
+    image: nginx 
+        
