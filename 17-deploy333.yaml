@@ -1,0 +1,29 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx
+  #deployment related labels
+  labels:
+    app: nginx 
+    purpose: deployment
+    tier: web
+  spec:
+    replicas: 3
+    selector:
+      matchLabels:
+        app: nginx 
+        purpose: deployment
+        tier: web
+    #pod definition        
+    template:      
+      metadata:
+        labels:
+          app: nginx 
+          purpose: deployment
+          tier: web    
+          extra-label: some value
+    spec:
+      containers:
+      - name: nginx 
+        image: nginx 
+                        
