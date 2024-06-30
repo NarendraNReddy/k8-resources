@@ -7,23 +7,23 @@ metadata:
     app: nginx 
     purpose: deployment
     tier: web
-  spec:
-    replicas: 3
-    selector:
-      matchLabels:
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx 
+      purpose: deployment
+      tier: web
+    #pod definition        
+  template:      
+    metadata:
+      labels:
         app: nginx 
         purpose: deployment
-        tier: web
-    #pod definition        
-    template:      
-      metadata:
-        labels:
-          app: nginx 
-          purpose: deployment
-          tier: web    
-          extra-label: some value
-    spec:
-      containers:
-      - name: nginx 
-        image: nginx 
-                        
+        tier: web    
+        extra-label: some value
+  spec:
+    containers:
+    - name: nginx 
+      image: nginx 
+
