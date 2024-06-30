@@ -22,8 +22,8 @@ spec:
         purpose: deployment
         tier: web    
         extra-label: some value
-  spec:
-    containers:
-    - name: nginx 
-      image: nginx 
+    spec:
+      containers:
+      - name: nginx 
+        image: nginx 
 
