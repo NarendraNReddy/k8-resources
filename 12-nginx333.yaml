@@ -2,9 +2,10 @@ kind: Pod
 apiVersion: v1
 metadata:
   name: frontend
-  project: expense
-  component: frontend
-  environment: dev
+  labels:
+    project: expense
+    component: frontend
+    environment: dev
 
 spec:
   containers:
