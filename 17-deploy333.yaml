@@ -21,7 +21,7 @@ spec:
         app: nginx 
         purpose: deployment
         tier: web    
-        extra-label: some value
+        extralabel: somevalue
     spec:
       containers:
       - name: nginx 
