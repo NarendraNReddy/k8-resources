@@ -13,6 +13,6 @@ spec:
   - protocol: TCP
     port: 80
     targetPort: 80   
-    nodePort: 32768
+    nodePort: 32767
 
     
