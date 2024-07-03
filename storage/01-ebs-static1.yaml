@@ -40,7 +40,7 @@ spec:
     - name: persistent-storage
       mountPath: /usr/share/nginx/html
   nodeSelector:
-    topology.kubernetes.io/zone: us-east-1b/us-east-1a
+    topology.kubernetes.io/zone: us-east-1b
   volumes:
   - name: persistent-storage
     persistentVolumeClaim:
@@ -59,4 +59,5 @@ spec:
   - protocol: TCP
     port: 80 #service-port
     targetPort: 80
+    nodePort: 32760
           
