@@ -60,4 +60,4 @@ spec:
   - protocol: TCP
     port: 80 #service-port
     targetPort: 80 #target-port
-    nodePort: 32761          
+    # nodePort: 32761          
