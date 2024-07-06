@@ -22,7 +22,7 @@ spec:
   accessModes:
     - ReadWriteOnce
   storageClassName: ""
-  voumeName: efs-static
+  volumeName: efs-static
   resources:
     requests:
       storage: 2Gi    
