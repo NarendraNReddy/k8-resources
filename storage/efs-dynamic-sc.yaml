@@ -10,6 +10,17 @@
 #   basePath: "/expense"
 
 
+# kind: StorageClass
+# apiVersion: storage.k8s.io/v1
+# metadata:
+#   name: efs-dynamic
+# provisioner: efs.csi.aws.com
+# parameters:
+#   provisioningMode: efs-ap
+#   fileSystemId: fs-078072bff929f3d78
+#   directoryPerms: "700"
+#   basePath: "/expense" # optional
+
 kind: StorageClass
 apiVersion: storage.k8s.io/v1
 metadata:
@@ -17,7 +28,7 @@ metadata:
 provisioner: efs.csi.aws.com
 parameters:
   provisioningMode: efs-ap
-  fileSystemId: fs-078072bff929f3d78
+  fileSystemId: fs-008c066c5a184867b
   directoryPerms: "700"
   basePath: "/expense" # optional
   
