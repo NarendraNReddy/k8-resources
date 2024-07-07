@@ -12,13 +12,13 @@ spec:
     matchLabels:
       app: nginx 
       tier: web
-      project: test-project 
+      project: deployment 
   template:
     metadata:
       labels:
         app: nginx 
         tier: web
-        project: test-project
+        project: deployment
         extra-key: extra-value
     spec:
       containers:
