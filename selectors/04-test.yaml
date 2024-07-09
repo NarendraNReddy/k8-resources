@@ -6,14 +6,12 @@ spec:
   affinity:
     nodeAffinity:
       preferredDuringSchedulingIgnoredDuringExecution:
-      - weight: 1
         nodeSelectorTerms:
         - matchExpressions:
           - key: project
             operator: In
             values:
             - expense
-
   containers:
   - name: with-node-affinity
     image: nginx
@@ -24,4 +22,4 @@ spec:
   #   effect: "NoSchedule"
   # - key: "project"
   #   operator: "Exists"
-  #   effect: "NoSchedule"     
+  #   effect: "NoSchedule"    
