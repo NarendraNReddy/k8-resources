@@ -1,0 +1,21 @@
+kind: Pod
+metadata:
+  name: pod-1
+  labels:
+    name: pod-1
+    purpose: affinity
+spec:
+  containers:
+  - name: nginx
+    image: nginx
+    imagePullPolicy: Always #keep this as always
+  # nodeSelector:
+  #   project: expense      
+  # tolerations:
+  # - key: "project"
+  #   operator: "Equal"
+  #   value: "expense"
+  #   effect: "NoSchedule"
+  # - key: "project"
+  #   operator: "Exists"
+  #   effect: "NoSchedule" 
