@@ -15,8 +15,13 @@ spec:
   containers:
   - name: nginx
     image: nginx
-  # tolerations:
-  # - key: "example-key"
-  #   operator: "Exists"
-  #   effect: "NoSchedule"    
+  tolerations:
+  - key: "project"
+    operator: "Equal"
+    effect: "NoSchedule"    
+    value: "expense"
+  - key: "project"
+    operator: "Exists"
+    effect: "NoSchedule"    
+ 
     
