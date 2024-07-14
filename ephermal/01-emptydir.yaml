@@ -41,7 +41,7 @@ spec:
       mountPath: /var/log/nginx/
   volumes:
   - name: nginx-logs
-    emptyDir: {}
+    emptyDir: {} #ephermal 
   - name: filebeat-config
     configMap:
       name: filebeat
